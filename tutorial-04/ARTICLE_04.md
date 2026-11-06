@@ -545,12 +545,12 @@ results/
 
 验收能量数据时，最容易被忽略的是权重约定。假设每个温度有 $n$ 次**独立**的扩散系数测量：
 
-\[
-\overline D=\frac1n\sum_{i=1}^nD_i,\qquad
-\operatorname{SEM}(D)=\frac{\operatorname{SD}(D_i)}{\sqrt n}.
-\]
+$$
+\overline{D}=\frac{1}{n}\sum_{i=1}^{n}D_i,\qquad
+\mathrm{SEM}(D)=\frac{\mathrm{SD}(D_i)}{\sqrt{n}}.
+$$
 
-本例采用 $x=1000/T$ 和 $y=\ln\overline D$。在相对误差较小时，一阶误差传播给出 $\sigma_y\approx\operatorname{SEM}(D)/\overline D$。NumPy `polyfit` 的 `w` 是残差权重，所以取：
+本例采用 $x=1000/T$ 和 $y=\ln\overline{D}$。在相对误差较小时，一阶误差传播给出 $\sigma_y\approx\mathrm{SEM}(D)/\overline{D}$。NumPy `polyfit` 的 `w` 是残差权重，所以取：
 
 ```python
 x = 1000.0 / temperature_K
