@@ -722,6 +722,17 @@ python -m scripts.hash_raw verify
 
 ---
 
+# 配套源码与附件下载
+
+- **系列 GitHub 仓库：**[quark-wang/codex-research-tutorials](https://github.com/quark-wang/codex-research-tutorials)
+- **第 04 期正文与源码：**[tutorial-04](https://github.com/quark-wang/codex-research-tutorials/tree/main/tutorial-04)
+- **第 04 期附件发布页：**[tutorial-04-v1.0.2](https://github.com/quark-wang/codex-research-tutorials/releases/tag/tutorial-04-v1.0.2)
+- **完整 ZIP 直接下载：**[Codex_Tutorial_04_Corrected_Package_v1.0.2.zip](https://github.com/quark-wang/codex-research-tutorials/releases/download/tutorial-04-v1.0.2/Codex_Tutorial_04_Corrected_Package_v1.0.2.zip)
+
+完整附件包包含教程 Markdown、可执行 Python 项目、测试代码、参考补丁、6 张正文配图、科学计算结果与验证报告。
+
+---
+
 # 下期预告
 
 **Codex 科研实战（05）：让 Codex 自动定位 Python 报错——从 traceback、最小复现到回归测试**。
