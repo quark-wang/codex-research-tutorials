@@ -6,7 +6,7 @@
 
 | 期数 | 主题 | 正文与源码 | 附件下载 |
 | --- | --- | --- | --- |
-| 04 | Codex + Git：把 AI 的代码修改关进可回滚的实验工作区 | [`tutorial-04/`](tutorial-04/) | [最新 Release](../../releases/latest) |
+| 04 | Codex + Git：把 AI 的代码修改关进可回滚的实验工作区 | [`tutorial-04/`](tutorial-04/) | [最新 Release](https://github.com/quark-wang/codex-research-tutorials/releases/latest) |
 
 ## 第四期快速开始
 
