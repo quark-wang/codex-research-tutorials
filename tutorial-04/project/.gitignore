@@ -1,0 +1,10 @@
+# Deliberately exclude source simulation outputs and generated figures
+raw_data/
+results/
+.audit/
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+*.key

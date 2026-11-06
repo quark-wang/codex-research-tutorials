@@ -1,0 +1,39 @@
+F.....F.                                                                 [100%]
+=================================== FAILURES ===================================
+_________________________ test_known_activation_energy _________________________
+
+    def test_known_activation_energy():
+        t = np.array([700, 800, 900, 1000, 1100, 1200], dtype=float)
+        d = 2e-6 * np.exp(-0.42 / (KB_EV_PER_K * t))
+        got = arrhenius_fit(t, d)
+>       assert got['Ea_eV'] == pytest.approx(0.42, rel=1e-10)
+E       assert 0.00041999999999999866 == 0.42 ± 4.2e-11
+E         
+E         comparison failed
+E         Obtained: 0.00041999999999999866
+E         Expected: 0.42 ± 4.2e-11
+
+tests/test_analysis.py:10: AssertionError
+__________________________ test_batch_report_outputs ___________________________
+
+tmp_path = PosixPath('/tmp/pytest-of-root/pytest-3/test_batch_report_outputs0')
+
+    def test_batch_report_outputs(tmp_path):
+        from src.analysis import summarize_replicates
+        root = Path(__file__).resolve().parents[1]
+        raw = root / 'raw_data'
+        assert raw.is_dir(), 'first run python -m scripts.generate_demo'
+        summary = summarize_replicates(raw, tmp_path)
+        assert len(summary['rows']) == 6
+>       assert 0.39 < summary['Ea_eV'] < 0.45
+E       assert 0.39 < 0.0004199021900727096
+
+acceptance/test_batch.py:15: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_analysis.py::test_known_activation_energy - assert 0.00041999999999999866 == 0.42 ± 4.2e-11
+  
+  comparison failed
+  Obtained: 0.00041999999999999866
+  Expected: 0.42 ± 4.2e-11
+FAILED acceptance/test_batch.py::test_batch_report_outputs - assert 0.39 < 0.0004199021900727096
+2 failed, 6 passed in 1.86s

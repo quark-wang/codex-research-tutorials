@@ -1,0 +1,2 @@
+* 093a7a1 feat: audited batch Arrhenius report
+* 4e8bcfd baseline: verified diffusion fitting

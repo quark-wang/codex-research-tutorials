@@ -1,0 +1,13 @@
+diff --git a/src/analysis.py b/src/analysis.py
+index 8532ccb..73f0a31 100644
+--- a/src/analysis.py
++++ b/src/analysis.py
+@@ -33,7 +33,7 @@ def arrhenius_fit(temperature_K, diffusion_m2s, sem_m2s=None):
+     if sst <= 1e-24:
+         raise ValueError("ln(D) variation too small for R2")
+     return {
+-        "Ea_eV": float(-1000.0 * KB_EV_PER_K * slope),
++        "Ea_eV": float(-1.0 * KB_EV_PER_K * slope),
+         "D0_m2_s": float(np.exp(intercept)),
+         "slope": float(slope),
+         "intercept": float(intercept),
