@@ -1,0 +1,16 @@
+{
+  "dense": {
+    "total_calls": 186,
+    "primitive_calls": 186,
+    "total_time_s": 0.22631750000000006,
+    "mean_coordination": 4.629,
+    "sum_coordination": 9258
+  },
+  "kdtree": {
+    "total_calls": 52,
+    "primitive_calls": 52,
+    "total_time_s": 0.0039276,
+    "mean_coordination": 4.629,
+    "sum_coordination": 9258
+  }
+}

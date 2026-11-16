@@ -1,0 +1,28 @@
+         52 function calls in 0.004 seconds
+
+   Ordered by: cumulative time
+   List reduced from 26 to 20 due to restriction <20>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.004    0.004    0.004    0.004 neighbors.py:72(counts_kdtree)
+        1    0.000    0.000    0.000    0.000 neighbors.py:22(validate)
+        9    0.000    0.000    0.000    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+        3    0.000    0.000    0.000    0.000 fromnumeric.py:66(_wrapreduction)
+        1    0.000    0.000    0.000    0.000 fromnumeric.py:3165(amax)
+        1    0.000    0.000    0.000    0.000 fromnumeric.py:3303(amin)
+        3    0.000    0.000    0.000    0.000 fromnumeric.py:86(_wrapreduction_any_all)
+        2    0.000    0.000    0.000    0.000 fromnumeric.py:2586(all)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'astype' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 fromnumeric.py:3187(min)
+        2    0.000    0.000    0.000    0.000 _methods.py:55(_any)
+        2    0.000    0.000    0.000    0.000 _function_base_impl.py:936(copy)
+        1    0.000    0.000    0.000    0.000 fromnumeric.py:2474(any)
+        1    0.000    0.000    0.000    0.000 _methods.py:64(_all)
+        3    0.000    0.000    0.000    0.000 {built-in method numpy.asarray}
+        1    0.000    0.000    0.000    0.000 {method 'ravel' of 'numpy.ndarray' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method numpy.array}
+        6    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 multiarray.py:909(bincount)
+
+

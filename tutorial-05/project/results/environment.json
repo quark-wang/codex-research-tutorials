@@ -1,0 +1,30 @@
+{
+  "created_utc": "2026-11-16T11:49:26.626688+00:00",
+  "python": "3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "machine": "AMD64",
+  "processor": "Intel64 Family 6 Model 158 Stepping 13, GenuineIntel",
+  "logical_cpu_count": 8,
+  "physical_cpu_count": 8,
+  "numpy": "2.5.5",
+  "scipy": "1.18.1",
+  "psutil": "7.2.2",
+  "thread_environment": {
+    "OMP_NUM_THREADS": null,
+    "OPENBLAS_NUM_THREADS": null,
+    "MKL_NUM_THREADS": null
+  },
+  "sizes": [
+    500,
+    1000,
+    2000,
+    5000,
+    10000,
+    30000
+  ],
+  "repeats": 3,
+  "seed": 20261116,
+  "cutoff_A": 3.0,
+  "purpose": "Synthetic uniform particles; orthorhombic PBC",
+  "warning": "Dense method intentionally not run above 2,000 atoms."
+}

@@ -1,0 +1,6 @@
+numpy>=2.1
+scipy>=1.14
+matplotlib>=3.9
+psutil>=6.0
+pytest>=8.3
+freud-analysis>=3.6

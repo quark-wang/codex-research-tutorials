@@ -1,0 +1,6 @@
+Command: .\.venv\Scripts\python.exe -m pytest -q
+Run date: 2026-11-16 (Asia/Shanghai)
+
+............................                                             [100%]
+28 passed in 2.17s
+
