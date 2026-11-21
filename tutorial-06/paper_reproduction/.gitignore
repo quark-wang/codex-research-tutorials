@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+*.nbc
+*.nbi
+.quick_results/
+results/quick/

@@ -1,0 +1,8 @@
+figure,png,pdf,png_bytes,pdf_bytes
+fig01_instruction_hierarchy,results/figures/fig01_instruction_hierarchy.png,results/figures/fig01_instruction_hierarchy.pdf,185794,24380
+fig02_magnetization,results/figures/fig02_magnetization.png,results/figures/fig02_magnetization.pdf,184953,25080
+fig03_energy,results/figures/fig03_energy.png,results/figures/fig03_energy.pdf,156324,23403
+fig04_heat_capacity,results/figures/fig04_heat_capacity.png,results/figures/fig04_heat_capacity.pdf,219842,23213
+fig05_susceptibility,results/figures/fig05_susceptibility.png,results/figures/fig05_susceptibility.pdf,171734,25830
+fig06_binder_crossings,results/figures/fig06_binder_crossings.png,results/figures/fig06_binder_crossings.pdf,224075,24654
+fig07_verification_dashboard,results/figures/fig07_verification_dashboard.png,results/figures/fig07_verification_dashboard.pdf,127633,25023

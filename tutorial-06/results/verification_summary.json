@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "data_kind": "synthetic_monte_carlo",
+  "tests_passed": 48,
+  "pytest_exit_code": 0,
+  "raw_hash_passed": true,
+  "schema_passed": true,
+  "chain_rows": 176,
+  "lattice_sizes": [
+    8,
+    12,
+    16,
+    24
+  ],
+  "temperatures": [
+    1.8,
+    1.95,
+    2.05,
+    2.15,
+    2.22,
+    2.27,
+    2.32,
+    2.4,
+    2.5,
+    2.65,
+    2.8
+  ],
+  "chains_per_state_point": 4,
+  "samples_per_chain": 300,
+  "reproduction_matches_release_sha256": true,
+  "instruction_scopes": 6,
+  "codex_probe_passed": true,
+  "codex_version": "codex-cli 0.171.0-alpha.13",
+  "policy_scenarios_checked": 4,
+  "policy_outcomes": {
+    "safe_analysis_patch": true,
+    "raw_snapshot_tamper": false,
+    "report_scope_escape": false,
+    "safe_figure_export": true
+  },
+  "paper_reproduction": {
+    "passed": true,
+    "schema_passed": true,
+    "ratio_filter_passed": true,
+    "finite_size_order_at_T_3_passed": true,
+    "artifact_hashes_passed": true,
+    "hash_checks": {
+      "source_script": true,
+      "chain_csv": true,
+      "summary_csv": true,
+      "png": true,
+      "pdf": true
+    },
+    "chain_rows": 732,
+    "summary_rows": 183,
+    "lattice_sizes": [
+      10,
+      20,
+      40
+    ],
+    "temperature_count": 61,
+    "chains_per_state_point": 4,
+    "mean_absolute_difference_from_onsager_for_T_le_2": 0.00036075135763636754,
+    "m_L_at_T_3": {
+      "10": 0.277135,
+      "20": 0.1357175,
+      "40": 0.066789375
+    }
+  },
+  "expected_figure_pairs": 7,
+  "critical_estimates": {
+    "exact_tc_reference": 2.269185314213022,
+    "largest_size_chi_peak": 2.3123175583654234,
+    "binder_median": 2.2361061930756927
+  },
+  "environment": {
+    "python": "3.13.1",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.2.2",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.3",
+    "pytest": "9.2.0"
+  },
+  "figure_generation_exit_code": 0,
+  "figure_pairs_created": 7,
+  "figure_verification_passed": true,
+  "report_check_exit_code": 0,
+  "elapsed_seconds": 11.754489600018132
+}

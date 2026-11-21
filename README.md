@@ -8,6 +8,7 @@
 | --- | --- | --- | --- |
 | 04 | Codex + Git：把 AI 的代码修改关进可回滚的实验工作区 | [`tutorial-04/`](tutorial-04/) | [最新 Release](https://github.com/quark-wang/codex-research-tutorials/releases/latest) |
 | 05 | 3 万原子配位分析：从 cKDTree 到 freud Figure 3 复现 | [`tutorial-05/`](tutorial-05/) | [完整项目 ZIP](tutorial-05/downloads/Codex_Tutorial_05_Complete_Project.zip) |
+| 06 | 分层 AGENTS.md：独立复现 Nature Communications 论文 Figure 9(a–b) | [`tutorial-06/`](tutorial-06/) | [完整项目 ZIP](tutorial-06/downloads/Codex_Tutorial_06_Complete_Project.zip) |
 
 ## 第四期快速开始
 
@@ -21,6 +22,12 @@
 
 本期包含 28 项自动化测试、7 组 PNG/PDF、原始 CSV/JSON、Cell List 对照，以及 SciPy 与 freud 的完整双分支 Figure 3 工作负载复现。验证记录见 [`tutorial-05/VERIFICATION_RESULTS.md`](tutorial-05/VERIFICATION_RESULTS.md)。
 
+## 第六期快速开始
+
+第六期正文见 [`tutorial-06/ARTICLE_06.md`](tutorial-06/ARTICLE_06.md)，运行入口见 [`tutorial-06/START_HERE.md`](tutorial-06/START_HERE.md)。
+
+本期使用分层 `AGENTS.md` 约束论文参数、模拟协议与声明边界，独立重算 Saratz 等人论文 Figure 9(a–b)。正式复现包含 732 条 Monte Carlo 链、183 个汇总点、Onsager 精确解对照、有限尺寸标度图及 48 项自动化测试；验证记录见 [`tutorial-06/VERIFICATION_RESULTS.md`](tutorial-06/VERIFICATION_RESULTS.md)。
+
 ## 后续更新
 
-后续教程将继续以 `tutorial-06/`、`tutorial-07/` 等目录追加，并为每期提供可下载附件。
+后续教程将继续以 `tutorial-07/`、`tutorial-08/` 等目录追加，并为每期提供可下载附件。

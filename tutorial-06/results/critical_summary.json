@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "data_kind": "synthetic_monte_carlo",
+  "model": "2d_square_ising_zero_field",
+  "exact_tc_reduced": 2.269185314213022,
+  "susceptibility_peak": {
+    "lattice_size": 24,
+    "temperature_estimate": 2.3123175583654234,
+    "discrete_peak_temperature": 2.32,
+    "peak_value": 11.83336766456268,
+    "method": "local_quadratic_peak"
+  },
+  "binder_crossings": [
+    {
+      "L_low": 8,
+      "L_high": 12,
+      "temperature_estimate": 2.2361061930756927,
+      "n_sign_changes": 1
+    },
+    {
+      "L_low": 12,
+      "L_high": 16,
+      "temperature_estimate": 2.305727155141938,
+      "n_sign_changes": 1
+    },
+    {
+      "L_low": 16,
+      "L_high": 24,
+      "temperature_estimate": 2.233151121267118,
+      "n_sign_changes": 1
+    }
+  ],
+  "binder_median_temperature": 2.2361061930756927,
+  "binder_absolute_error": 0.03307912113732936,
+  "limitations": [
+    "finite sizes and discrete temperature grid",
+    "SEM is across independent chains; no integrated-autocorrelation correction",
+    "Metropolis equilibration is workload-specific, not a universal production guarantee"
+  ]
+}

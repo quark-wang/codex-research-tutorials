@@ -1,0 +1,7 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "ising_chain_summary.csv": "5a962c4a33163a3e88dd87e61935a6b5144ad193110a51d769c97dce91a0e89f"
+  },
+  "root": "data/raw"
+}

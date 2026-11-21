@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "probe_type": "actual_codex_cli_read_only",
+  "codex_version": "codex-cli 0.171.0-alpha.13",
+  "replay_codex_version": "codex-cli 0.171.0-alpha.13",
+  "sandbox": "read-only",
+  "ephemeral": true,
+  "scopes": [
+    {
+      "scope": "root",
+      "expected_count": 5,
+      "observed_count": 5,
+      "exact_order_match": true,
+      "base_report_rule_loaded": false,
+      "expected_rule_ids": "ROOT-DATA-01;ROOT-PROVENANCE-02;ROOT-SCOPE-03;ROOT-VERIFY-04;ROOT-EVIDENCE-05",
+      "observed_rule_ids": "ROOT-DATA-01;ROOT-PROVENANCE-02;ROOT-SCOPE-03;ROOT-VERIFY-04;ROOT-EVIDENCE-05"
+    },
+    {
+      "scope": "simulation",
+      "expected_count": 10,
+      "observed_count": 10,
+      "exact_order_match": true,
+      "base_report_rule_loaded": false,
+      "expected_rule_ids": "ROOT-DATA-01;ROOT-PROVENANCE-02;ROOT-SCOPE-03;ROOT-VERIFY-04;ROOT-EVIDENCE-05;SIM-HAMILTONIAN-01;SIM-RNG-02;SIM-SAMPLING-03;SIM-OUTPUT-04;SIM-VERIFY-05",
+      "observed_rule_ids": "ROOT-DATA-01;ROOT-PROVENANCE-02;ROOT-SCOPE-03;ROOT-VERIFY-04;ROOT-EVIDENCE-05;SIM-HAMILTONIAN-01;SIM-RNG-02;SIM-SAMPLING-03;SIM-OUTPUT-04;SIM-VERIFY-05"
+    },
+    {
+      "scope": "analysis",
+      "expected_count": 10,
+      "observed_count": 10,
+      "exact_order_match": true,
+      "base_report_rule_loaded": false,
+      "expected_rule_ids": "ROOT-DATA-01;ROOT-PROVENANCE-02;ROOT-SCOPE-03;ROOT-VERIFY-04;ROOT-EVIDENCE-05;ANALYSIS-UNITS-01;ANALYSIS-FORMULA-02;ANALYSIS-CHAINS-03;ANALYSIS-TC-04;ANALYSIS-VERIFY-05",
+      "observed_rule_ids": "ROOT-DATA-01;ROOT-PROVENANCE-02;ROOT-SCOPE-03;ROOT-VERIFY-04;ROOT-EVIDENCE-05;ANALYSIS-UNITS-01;ANALYSIS-FORMULA-02;ANALYSIS-CHAINS-03;ANALYSIS-TC-04;ANALYSIS-VERIFY-05"
+    },
+    {
+      "scope": "figures",
+      "expected_count": 10,
+      "observed_count": 10,
+      "exact_order_match": true,
+      "base_report_rule_loaded": false,
+      "expected_rule_ids": "ROOT-DATA-01;ROOT-PROVENANCE-02;ROOT-SCOPE-03;ROOT-VERIFY-04;ROOT-EVIDENCE-05;FIG-DATA-01;FIG-STYLE-02;FIG-ERROR-03;FIG-REFERENCE-04;FIG-VERIFY-05",
+      "observed_rule_ids": "ROOT-DATA-01;ROOT-PROVENANCE-02;ROOT-SCOPE-03;ROOT-VERIFY-04;ROOT-EVIDENCE-05;FIG-DATA-01;FIG-STYLE-02;FIG-ERROR-03;FIG-REFERENCE-04;FIG-VERIFY-05"
+    },
+    {
+      "scope": "paper_reproduction",
+      "expected_count": 11,
+      "observed_count": 11,
+      "exact_order_match": true,
+      "base_report_rule_loaded": false,
+      "expected_rule_ids": "ROOT-DATA-01;ROOT-PROVENANCE-02;ROOT-SCOPE-03;ROOT-VERIFY-04;ROOT-EVIDENCE-05;PAPER-TARGET-01;PAPER-PARAM-02;PAPER-DISCLOSURE-03;PAPER-SAMPLING-04;PAPER-STATISTICS-05;PAPER-FIGURE-06",
+      "observed_rule_ids": "ROOT-DATA-01;ROOT-PROVENANCE-02;ROOT-SCOPE-03;ROOT-VERIFY-04;ROOT-EVIDENCE-05;PAPER-TARGET-01;PAPER-PARAM-02;PAPER-DISCLOSURE-03;PAPER-SAMPLING-04;PAPER-STATISTICS-05;PAPER-FIGURE-06"
+    },
+    {
+      "scope": "reports",
+      "expected_count": 10,
+      "observed_count": 10,
+      "exact_order_match": true,
+      "base_report_rule_loaded": false,
+      "expected_rule_ids": "ROOT-DATA-01;ROOT-PROVENANCE-02;ROOT-SCOPE-03;ROOT-VERIFY-04;ROOT-EVIDENCE-05;REPORT-SOURCE-01;REPORT-LABEL-02;REPORT-WRITE-03;REPORT-NUMBER-04;REPORT-VERIFY-05",
+      "observed_rule_ids": "ROOT-DATA-01;ROOT-PROVENANCE-02;ROOT-SCOPE-03;ROOT-VERIFY-04;ROOT-EVIDENCE-05;REPORT-SOURCE-01;REPORT-LABEL-02;REPORT-WRITE-03;REPORT-NUMBER-04;REPORT-VERIFY-05"
+    }
+  ],
+  "all_scopes_match_deterministic_resolver": true
+}

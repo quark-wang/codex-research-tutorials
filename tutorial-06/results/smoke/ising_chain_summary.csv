@@ -1,0 +1,13 @@
+schema_version,lattice_size,temperature,chain,seed,equilibration_sweeps,measurement_sweeps,sample_interval,n_samples,acceptance_fraction,mean_E,mean_E2,mean_abs_M,mean_M2,mean_M4,data_kind,model,master_seed
+1,8,2,0,1427260526,40,80,4,20,0.0904947916667,-115.2,13427.2,59.9,3609.4,13310149.6,synthetic_monte_carlo,2d_square_ising_zero_field,20261121
+1,8,2,1,1428220855,40,80,4,20,0.091015625,-113.2,12948.8,59.3,3536.2,12759700,synthetic_monte_carlo,2d_square_ising_zero_field,20261121
+1,8,2.27,0,2899973012,40,80,4,20,0.195703125,-89.6,8723.2,44.2,2324.4,7268923.2,synthetic_monte_carlo,2d_square_ising_zero_field,20261121
+1,8,2.27,1,3142137399,40,80,4,20,0.172395833333,-97.4,9884,51,2785.2,9010795.2,synthetic_monte_carlo,2d_square_ising_zero_field,20261121
+1,8,2.6,0,3719633957,40,80,4,20,0.288802083333,-75,6413.6,36,1700.8,4729388.8,synthetic_monte_carlo,2d_square_ising_zero_field,20261121
+1,8,2.6,1,1398437370,40,80,4,20,0.357682291667,-71.6,5539.2,35.1,1496.2,3265184.8,synthetic_monte_carlo,2d_square_ising_zero_field,20261121
+1,12,2,0,2268393100,40,80,4,20,0.090162037037,-256.6,66196,134,17998.8,326880801.6,synthetic_monte_carlo,2d_square_ising_zero_field,20261121
+1,12,2,1,2311455922,40,80,4,20,0.0965277777778,-249.6,62780.8,130.6,17156.4,300489672,synthetic_monte_carlo,2d_square_ising_zero_field,20261121
+1,12,2.27,0,3313491062,40,80,4,20,0.191435185185,-221.8,49999.2,114.4,13507.6,199874977.6,synthetic_monte_carlo,2d_square_ising_zero_field,20261121
+1,12,2.27,1,2486296361,40,80,4,20,0.222627314815,-193.6,38348.8,93.4,9650.8,117895547.2,synthetic_monte_carlo,2d_square_ising_zero_field,20261121
+1,12,2.6,0,3997472540,40,80,4,20,0.360300925926,-148.2,22527.2,51.7,3134.6,14529773.6,synthetic_monte_carlo,2d_square_ising_zero_field,20261121
+1,12,2.6,1,3534090181,40,80,4,20,0.355034722222,-158.2,26154.4,66.1,5381,48745076,synthetic_monte_carlo,2d_square_ising_zero_field,20261121

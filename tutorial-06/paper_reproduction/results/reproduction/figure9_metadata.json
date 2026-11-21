@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "reproduction_class": "independent_method_reproduction",
+  "data_kind": "synthetic_monte_carlo",
+  "paper": {
+    "citation": "N. Saratz et al., Nature Communications 7, 13611 (2016)",
+    "doi": "10.1038/ncomms13611",
+    "url": "https://www.nature.com/articles/ncomms13611",
+    "target": "Figure 9(a-b)",
+    "reported_parameters_used": {
+      "model": "unfrustrated square-lattice 2D Ising",
+      "external_field": 0,
+      "J": 1,
+      "k_B": 1,
+      "lattice_sizes": [
+        10,
+        20,
+        40
+      ],
+      "temperature_range_T_over_J": [
+        1.5,
+        3.0
+      ]
+    }
+  },
+  "tutorial_choices_not_recovered_from_paper": {
+    "master_seed": 20261121,
+    "chains_per_point": 4,
+    "temperature_grid": [
+      1.5,
+      1.55,
+      1.6,
+      1.65,
+      1.7,
+      1.75,
+      1.8,
+      1.85,
+      1.9,
+      1.95,
+      2.0,
+      2.05,
+      2.1,
+      2.11,
+      2.12,
+      2.13,
+      2.14,
+      2.15,
+      2.16,
+      2.17,
+      2.18,
+      2.19,
+      2.2,
+      2.21,
+      2.22,
+      2.23,
+      2.24,
+      2.25,
+      2.26,
+      2.265,
+      2.268,
+      2.27,
+      2.28,
+      2.29,
+      2.3,
+      2.31,
+      2.32,
+      2.33,
+      2.34,
+      2.35,
+      2.36,
+      2.37,
+      2.38,
+      2.39,
+      2.4,
+      2.41,
+      2.42,
+      2.43,
+      2.44,
+      2.45,
+      2.5,
+      2.55,
+      2.6,
+      2.65,
+      2.7,
+      2.75,
+      2.8,
+      2.85,
+      2.9,
+      2.95,
+      3.0
+    ],
+    "equilibration_sweeps": 3000,
+    "measurement_sweeps": 9000,
+    "sample_interval": 9,
+    "stored_samples_per_chain": 1000,
+    "boundary_conditions": "periodic",
+    "magnetization_estimator": "mean_abs_M_over_L2",
+    "initial_state": "ordered_up",
+    "update_algorithm": "red_black_metropolis",
+    "rng_algorithm": "xorshift64star",
+    "uncertainty": "SEM across independent chains; not autocorrelation-corrected"
+  },
+  "exact_reference": {
+    "Tc": 2.269185314213022,
+    "nu": 1.0,
+    "magnetization": "Onsager spontaneous magnetization"
+  },
+  "software": {
+    "python": "3.13.1",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.2.2",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.3",
+    "numba_available": true,
+    "numba": "0.65.1"
+  },
+  "quick_non_scientific_run": false,
+  "rows": {
+    "chains": 732,
+    "summary": 183
+  },
+  "elapsed_seconds": 136.22691560001113,
+  "files": {
+    "source_script": {
+      "path": "run_figure9_reproduction.py",
+      "sha256": "410f107383bd85389a148d39935add6b3332e3c817b428ffa165b27c2696b6f6"
+    },
+    "chain_csv": {
+      "path": "results/reproduction/figure9_chain_summary.csv",
+      "sha256": "10886485d473ca6f9257ed2acaf6e494c29b1fffebfd7b7f81332fbd9fdde846"
+    },
+    "summary_csv": {
+      "path": "results/reproduction/figure9_summary.csv",
+      "sha256": "d1abfb2e7b0f53a1351488870f7e0c740ac7abb70d2716f9d392689b4a5276f2"
+    },
+    "png": {
+      "path": "results/figures/fig08_saratz_figure9ab_reproduction.png",
+      "sha256": "707544e824f07d359c827b7cb162d7fc5ce424db68a680bb6b62382f59386cb7"
+    },
+    "pdf": {
+      "path": "results/figures/fig08_saratz_figure9ab_reproduction.pdf",
+      "sha256": "d2dd5bb5c05c68b31e206fce6b0edc4163de10f88202dc25fe1bf2926dbdd440"
+    }
+  },
+  "quantitative_checks": {
+    "mean_absolute_difference_from_onsager_for_T_le_2": 0.0003607513574782247,
+    "maximum_chain_sem": 0.017605263073598915,
+    "m_L_at_T_3": {
+      "10": 0.277135,
+      "20": 0.1357175,
+      "40": 0.066789375
+    },
+    "expected_finite_size_order_at_T_3": "m_L(L=10) > m_L(L=20) > m_L(L=40)",
+    "finite_size_order_at_T_3_pass": true
+  },
+  "limitations": [
+    "The original Figure 9 numerical data and random seeds are not used.",
+    "The tutorial sampling schedule is declared here rather than inferred from the published bitmap.",
+    "SEM across chains is not an integrated-autocorrelation-time uncertainty.",
+    "No hot/cold-start comparison, burn-in sensitivity study, or autocorrelation-time analysis was performed.",
+    "Agreement in curve shape and finite-size ordering does not establish pointwise identity to the paper data."
+  ]
+}

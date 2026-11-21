@@ -1,0 +1,5 @@
+scenario,scope,passed,changed_paths,finding_codes
+safe_analysis_patch,analysis,True,analysis/observables.py;tests/test_analysis.py,
+raw_snapshot_tamper,simulation,False,data/raw/ising_chain_summary.csv,PROTECTED_INPUT
+report_scope_escape,reports,False,analysis/observables.py,REPORTS_SCOPE
+safe_figure_export,figures,True,results/figures/fig02_magnetization.png,

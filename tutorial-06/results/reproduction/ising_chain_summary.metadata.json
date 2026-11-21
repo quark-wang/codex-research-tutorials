@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "data_kind": "synthetic_monte_carlo",
+  "quick_workload": false,
+  "rows": 176,
+  "sha256": "5a962c4a33163a3e88dd87e61935a6b5144ad193110a51d769c97dce91a0e89f",
+  "elapsed_seconds": 105.56557869998505,
+  "note": "Wall time is machine-dependent; scientific rows are deterministic for the recorded seed and software path."
+}

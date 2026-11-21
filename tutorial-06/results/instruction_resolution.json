@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "scopes": {
+    "root": {
+      "working_directory": ".",
+      "sources": [
+        "AGENTS.md"
+      ],
+      "rule_ids": [
+        "ROOT-DATA-01",
+        "ROOT-PROVENANCE-02",
+        "ROOT-SCOPE-03",
+        "ROOT-VERIFY-04",
+        "ROOT-EVIDENCE-05"
+      ]
+    },
+    "simulation": {
+      "working_directory": "simulation",
+      "sources": [
+        "AGENTS.md",
+        "simulation/AGENTS.md"
+      ],
+      "rule_ids": [
+        "ROOT-DATA-01",
+        "ROOT-PROVENANCE-02",
+        "ROOT-SCOPE-03",
+        "ROOT-VERIFY-04",
+        "ROOT-EVIDENCE-05",
+        "SIM-HAMILTONIAN-01",
+        "SIM-RNG-02",
+        "SIM-SAMPLING-03",
+        "SIM-OUTPUT-04",
+        "SIM-VERIFY-05"
+      ]
+    },
+    "analysis": {
+      "working_directory": "analysis",
+      "sources": [
+        "AGENTS.md",
+        "analysis/AGENTS.md"
+      ],
+      "rule_ids": [
+        "ROOT-DATA-01",
+        "ROOT-PROVENANCE-02",
+        "ROOT-SCOPE-03",
+        "ROOT-VERIFY-04",
+        "ROOT-EVIDENCE-05",
+        "ANALYSIS-UNITS-01",
+        "ANALYSIS-FORMULA-02",
+        "ANALYSIS-CHAINS-03",
+        "ANALYSIS-TC-04",
+        "ANALYSIS-VERIFY-05"
+      ]
+    },
+    "figures": {
+      "working_directory": "figures",
+      "sources": [
+        "AGENTS.md",
+        "figures/AGENTS.md"
+      ],
+      "rule_ids": [
+        "ROOT-DATA-01",
+        "ROOT-PROVENANCE-02",
+        "ROOT-SCOPE-03",
+        "ROOT-VERIFY-04",
+        "ROOT-EVIDENCE-05",
+        "FIG-DATA-01",
+        "FIG-STYLE-02",
+        "FIG-ERROR-03",
+        "FIG-REFERENCE-04",
+        "FIG-VERIFY-05"
+      ]
+    },
+    "paper_reproduction": {
+      "working_directory": "paper_reproduction",
+      "sources": [
+        "AGENTS.md",
+        "paper_reproduction/AGENTS.md"
+      ],
+      "rule_ids": [
+        "ROOT-DATA-01",
+        "ROOT-PROVENANCE-02",
+        "ROOT-SCOPE-03",
+        "ROOT-VERIFY-04",
+        "ROOT-EVIDENCE-05",
+        "PAPER-TARGET-01",
+        "PAPER-PARAM-02",
+        "PAPER-DISCLOSURE-03",
+        "PAPER-SAMPLING-04",
+        "PAPER-STATISTICS-05",
+        "PAPER-FIGURE-06"
+      ]
+    },
+    "reports": {
+      "working_directory": "reports",
+      "sources": [
+        "AGENTS.md",
+        "reports/AGENTS.override.md"
+      ],
+      "rule_ids": [
+        "ROOT-DATA-01",
+        "ROOT-PROVENANCE-02",
+        "ROOT-SCOPE-03",
+        "ROOT-VERIFY-04",
+        "ROOT-EVIDENCE-05",
+        "REPORT-SOURCE-01",
+        "REPORT-LABEL-02",
+        "REPORT-WRITE-03",
+        "REPORT-NUMBER-04",
+        "REPORT-VERIFY-05"
+      ]
+    }
+  }
+}

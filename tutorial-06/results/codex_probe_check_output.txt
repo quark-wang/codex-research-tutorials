@@ -1,0 +1,1 @@
+Codex CLI probes: PASS (6 scopes)

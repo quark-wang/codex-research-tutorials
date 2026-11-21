@@ -1,0 +1,53 @@
+{
+  "scenarios": [
+    {
+      "scope": "analysis",
+      "changed_paths": [
+        "analysis/observables.py",
+        "tests/test_analysis.py"
+      ],
+      "passed": true,
+      "findings": [],
+      "scenario": "safe_analysis_patch"
+    },
+    {
+      "scope": "simulation",
+      "changed_paths": [
+        "data/raw/ising_chain_summary.csv"
+      ],
+      "passed": false,
+      "findings": [
+        {
+          "path": "data/raw/ising_chain_summary.csv",
+          "code": "PROTECTED_INPUT",
+          "message": "released raw data/control metadata are immutable"
+        }
+      ],
+      "scenario": "raw_snapshot_tamper"
+    },
+    {
+      "scope": "reports",
+      "changed_paths": [
+        "analysis/observables.py"
+      ],
+      "passed": false,
+      "findings": [
+        {
+          "path": "analysis/observables.py",
+          "code": "REPORTS_SCOPE",
+          "message": "reports scope may not modify this path"
+        }
+      ],
+      "scenario": "report_scope_escape"
+    },
+    {
+      "scope": "figures",
+      "changed_paths": [
+        "results/figures/fig02_magnetization.png"
+      ],
+      "passed": true,
+      "findings": [],
+      "scenario": "safe_figure_export"
+    }
+  ]
+}

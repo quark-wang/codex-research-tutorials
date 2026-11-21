@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Codex AGENTS instruction probe",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["scope", "active_rule_ids", "base_report_rule_loaded"],
+  "properties": {
+    "scope": {
+      "type": "string",
+      "enum": ["root", "simulation", "analysis", "figures", "paper_reproduction", "reports"]
+    },
+    "active_rule_ids": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "base_report_rule_loaded": {"type": "boolean"}
+  }
+}
